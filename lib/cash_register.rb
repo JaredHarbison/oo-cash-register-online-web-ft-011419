@@ -14,5 +14,6 @@ class CashRegister
       @items << item 
     end 
     @last_transaction = price * quantity
+  end 
   
 end 
