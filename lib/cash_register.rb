@@ -28,6 +28,7 @@ class CashRegister
   def void_last_transaction
     if @last_transaction > 0 
       @total = @total - @last_transaction
+    end 
   end
   
 end 
